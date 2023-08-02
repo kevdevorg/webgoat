@@ -1,0 +1,10 @@
+name: Veracode Agent Based Scanning
+
+on:
+  push:
+    branches:
+      - grant
+
+jobs:
+  call-veracode-workflow:
+    uses: kevdevorg/appsec_workflows/.github/workflows/sca.yml@main
