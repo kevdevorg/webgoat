@@ -7,4 +7,4 @@ on:
 
 jobs:
   call-veracode-workflow:
-    uses: kevdevorg/appsec_workflows/blob/grant/.github/workflows/sca.yml@grant
+    uses: kevdevorg/appsec_workflows/.github/workflows/sca.yml@grant
